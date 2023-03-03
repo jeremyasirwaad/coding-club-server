@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_date_important_dates",
+  "info": {
+    "displayName": "important Dates",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}
