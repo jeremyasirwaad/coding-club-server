@@ -17,6 +17,7 @@
     "axios": "^1.3.4",
     "better-sqlite3": "8.0.1",
     "discord-api-types": "^0.37.35",
+    "pg": "^8.9.0",
     "typescript": "^4.7"
   },
   "author": {
