@@ -63,11 +63,14 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "events": {
+    "teams": {
       "type": "relation",
       "relation": "manyToMany",
-      "target": "api::event.event",
-      "mappedBy": "students"
+      "target": "api::team.team",
+      "mappedBy": "members"
+    },
+    "discordUID": {
+      "type": "string"
     }
   }
 }

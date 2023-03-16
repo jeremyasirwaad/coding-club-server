@@ -18,12 +18,6 @@
       "repeatable": true,
       "component": "date.important-dates"
     },
-    "students": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "plugin::users-permissions.user",
-      "inversedBy": "events"
-    },
     "content": {
       "type": "text"
     },
@@ -45,10 +39,16 @@
       ]
     },
     "minTeamSize": {
-      "type": "string"
+      "type": "integer"
     },
     "maxTeamSize": {
-      "type": "string"
+      "type": "integer"
+    },
+    "teams": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::team.team",
+      "mappedBy": "event"
     }
   }
 }

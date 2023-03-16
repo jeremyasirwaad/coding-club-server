@@ -10,10 +10,10 @@ const getImage = async (url: string) => {
 export default {
   async afterCreate(event: any) {
     const { result } = event
-    const data = await strapi.db.query('api::event.event').findOne({ 
+    const data = await strapi.db.query('api::event.event').findOne({
       where: {
         id: {
-          $eq: result.id 
+          $eq: result.id
         }
       },
       populate: ["important_dates", "poster"],
@@ -27,11 +27,13 @@ export default {
               type: 1,
               components: [
                 {
-                  type: 5,
-                  custom_id: "eventCreateUserSelectMenu",
-                  placeholder: "Select your team members here",
-                  min_values: data.minTeamSize,
-                  max_values: data.maxTeamSize
+                  type: 2,
+                  custom_id: JSON.stringify({
+                    id: result.id,
+                    custom_id: "EventRegisterButton"
+                  }),
+                  style: 1,
+                  label: "REGISTER"
                 }
               ],
             }
