@@ -49,6 +49,13 @@
       "relation": "oneToMany",
       "target": "api::team.team",
       "mappedBy": "event"
+    },
+    "open": {
+      "type": "boolean",
+      "default": true
+    },
+    "shortLiner": {
+      "type": "string"
     }
   }
 }

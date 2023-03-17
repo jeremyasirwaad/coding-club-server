@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_details",
+  "info": {
+    "singularName": "user-detail",
+    "pluralName": "user-details",
+    "displayName": "User Detail"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "rollNo": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "dept": {
+      "type": "string"
+    },
+    "phnNumber": {
+      "type": "string"
+    },
+    "whtspNumber": {
+      "type": "string"
+    },
+    "gctMailId": {
+      "type": "string"
+    },
+    "linkedinLink": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "dob": {
+      "type": "date"
+    },
+    "mailId": {
+      "type": "string"
+    },
+    "batch": {
+      "type": "integer"
+    }
+  }
+}
