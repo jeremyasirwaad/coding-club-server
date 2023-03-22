@@ -1,0 +1,5 @@
+/**
+ * bot service
+ */
+
+export default () => ({});

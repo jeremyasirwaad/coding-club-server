@@ -1,3 +1,10 @@
+import {Client, GatewayIntentBits, GatewayVersion} from "discord.js"
+import { initLifeCycles } from "./lifecycles";
+export const client = new Client({ intents: [
+  GatewayIntentBits.Guilds,
+  GatewayIntentBits.GuildMembers
+] });
+
 export default {
   /**
    * An asynchronous register function that runs before
@@ -14,5 +21,11 @@ export default {
    * This gives you an opportunity to set up your data model,
    * run jobs, or perform some special logic.
    */
-  bootstrap(/*{ strapi }*/) {},
+  bootstrap({strapi}) {
+    initLifeCycles(strapi)
+    client.on('ready', () => {
+      console.log(`Logged in as ${client.user.tag}!`);
+    });
+    client.login(process.env.BOT_TOKEN);
+  },
 };
