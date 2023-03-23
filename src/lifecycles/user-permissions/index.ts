@@ -52,6 +52,7 @@ export const initUserPermissionsLifecycle = (strapi) => {
                 ]
                 const guild = client.guilds.resolve("1008950812778704897")
                 const member = await guild.members.fetch(data.discordUID)
+                member.setNickname(data.userDetail.name)
                 rolesToAssign.forEach(async (id) => {
                     let role = await guild.roles.fetch(id)
                     if(role) {
