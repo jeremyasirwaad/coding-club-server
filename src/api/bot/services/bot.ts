@@ -1,5 +1,0 @@
-/**
- * bot service
- */
-
-export default () => ({});

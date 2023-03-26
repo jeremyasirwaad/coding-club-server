@@ -26,6 +26,11 @@
       "relation": "manyToOne",
       "target": "api::event.event",
       "inversedBy": "teams"
+    },
+    "teamLeader": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
     }
   }
 }
