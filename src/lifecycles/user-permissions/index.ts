@@ -58,6 +58,7 @@ export const initUserPermissionsLifecycle = (strapi) => {
                         member.roles.add(role).catch(err => console.log(err))
                     } 
                 })
+                member.roles.add("1088406695404896306") // verified role
             } catch (err) {
                 console.log(err)
             }
