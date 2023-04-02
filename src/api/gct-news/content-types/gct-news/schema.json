@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gct_newss",
+  "info": {
+    "singularName": "gct-news",
+    "pluralName": "gct-newss",
+    "displayName": "GctNews"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "AppTitle": {
+      "type": "string"
+    },
+    "AppDesc": {
+      "type": "string"
+    },
+    "AppFlyer": {
+      "type": "string"
+    },
+    "AppData": {
+      "type": "richtext"
+    }
+  }
+}

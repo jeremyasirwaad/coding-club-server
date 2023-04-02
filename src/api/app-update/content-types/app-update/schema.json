@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "app_updates",
+  "info": {
+    "singularName": "app-update",
+    "pluralName": "app-updates",
+    "displayName": "AppUpdate"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "version": {
+      "type": "string"
+    },
+    "apklink": {
+      "type": "string"
+    }
+  }
+}

@@ -56,6 +56,24 @@
     },
     "shortLiner": {
       "type": "string"
+    },
+    "AppTitle": {
+      "type": "string"
+    },
+    "AppEventDate": {
+      "type": "string"
+    },
+    "AppShortDescription": {
+      "type": "string"
+    },
+    "App_Resgisteration_Gform_Link": {
+      "type": "string"
+    },
+    "App_Event_Data": {
+      "type": "richtext"
+    },
+    "App_Poster": {
+      "type": "string"
     }
   }
 }

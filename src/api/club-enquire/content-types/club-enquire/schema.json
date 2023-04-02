@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "club_enquires",
+  "info": {
+    "singularName": "club-enquire",
+    "pluralName": "club-enquires",
+    "displayName": "ClubEnquire",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullname": {
+      "type": "string"
+    },
+    "department": {
+      "type": "string"
+    },
+    "rollno": {
+      "type": "string",
+      "unique": true
+    },
+    "batch": {
+      "type": "string"
+    },
+    "whatsappno": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}
