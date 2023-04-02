@@ -71,11 +71,6 @@
     },
     "discordUID": {
       "type": "string"
-    },
-    "userDetail": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::user-detail.user-detail"
     }
   }
 }
