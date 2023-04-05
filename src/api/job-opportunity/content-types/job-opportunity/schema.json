@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "job_opportunities",
+  "info": {
+    "singularName": "job-opportunity",
+    "pluralName": "job-opportunities",
+    "displayName": "JobOpportunity"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "JobTitle": {
+      "type": "string"
+    },
+    "PostingDate": {
+      "type": "string"
+    },
+    "JobShortDescription": {
+      "type": "richtext"
+    },
+    "Job_Poster": {
+      "type": "string"
+    },
+    "Event_data": {
+      "type": "richtext"
+    }
+  }
+}

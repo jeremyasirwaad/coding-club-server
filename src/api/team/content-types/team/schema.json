@@ -21,12 +21,6 @@
     "name": {
       "type": "string"
     },
-    "event": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::event.event",
-      "inversedBy": "teams"
-    },
     "teamLeader": {
       "type": "relation",
       "relation": "oneToOne",

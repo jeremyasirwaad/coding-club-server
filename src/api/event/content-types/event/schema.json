@@ -12,51 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "important_dates": {
-      "displayName": "important_dates",
-      "type": "component",
-      "repeatable": true,
-      "component": "date.important-dates"
-    },
-    "content": {
-      "type": "text"
-    },
-    "meta": {
-      "type": "json"
-    },
-    "name": {
-      "type": "string"
-    },
-    "poster": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "minTeamSize": {
-      "type": "integer"
-    },
-    "maxTeamSize": {
-      "type": "integer"
-    },
-    "teams": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::team.team",
-      "mappedBy": "event"
-    },
-    "open": {
-      "type": "boolean",
-      "default": true
-    },
-    "shortLiner": {
-      "type": "string"
-    },
     "AppTitle": {
       "type": "string"
     },
