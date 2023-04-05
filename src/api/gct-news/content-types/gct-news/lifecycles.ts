@@ -7,7 +7,9 @@ export default {
       "to": "/topics/NOTE",
       "notification": {
         "title": "News -" + result.AppTitle,
-        "body": result.AppDesc
+        "body": result.AppDesc,
+        "sound" : "default"
+
         },
        
   }  ,{headers: {

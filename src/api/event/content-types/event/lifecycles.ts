@@ -20,7 +20,8 @@ export default {
       "to": "/topics/NOTE",
       "notification": {
         "title": "New Coding Club Event",
-        "body": result.AppTitle +  " - " +result.AppEventDate
+        "body": result.AppTitle +  " - " +result.AppEventDate,
+        "sound" : "default"
         },
         "data": {
           "url": result.App_Poster,
