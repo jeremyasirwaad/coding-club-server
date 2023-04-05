@@ -4,7 +4,8 @@
   "info": {
     "singularName": "job-opportunity",
     "pluralName": "job-opportunities",
-    "displayName": "JobOpportunity"
+    "displayName": "JobOpportunity",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -25,6 +26,9 @@
     },
     "Event_data": {
       "type": "richtext"
+    },
+    "contactlink": {
+      "type": "string"
     }
   }
 }
