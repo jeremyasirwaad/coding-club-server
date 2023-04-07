@@ -13,22 +13,31 @@
   "pluginOptions": {},
   "attributes": {
     "AppTitle": {
-      "type": "string"
+      "type": "string",
+      "maxLength": 20,
+      "required": true
     },
     "AppEventDate": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "maxLength": 13
     },
     "AppShortDescription": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "maxLength": 137
     },
     "App_Resgisteration_Gform_Link": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "App_Event_Data": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "App_Poster": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

@@ -13,22 +13,30 @@
   "pluginOptions": {},
   "attributes": {
     "JobTitle": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "maxLength": 20
     },
     "PostingDate": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "JobShortDescription": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true,
+      "maxLength": 140
     },
     "Job_Poster": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Event_data": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "contactlink": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
