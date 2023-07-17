@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_answers_answers",
+  "info": {
+    "displayName": "answers"
+  },
+  "options": {},
+  "attributes": {
+    "quiz_id": {
+      "type": "string"
+    },
+    "iscorrect": {
+      "type": "boolean"
+    },
+    "student_ans": {
+      "type": "integer"
+    },
+    "origi_ans": {
+      "type": "integer"
+    }
+  }
+}

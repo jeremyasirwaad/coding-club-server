@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_quiz_quizzes",
+  "info": {
+    "displayName": "quiz"
+  },
+  "options": {},
+  "attributes": {
+    "quiz_id": {
+      "type": "string"
+    },
+    "question": {
+      "type": "string"
+    },
+    "option1": {
+      "type": "string"
+    },
+    "option2": {
+      "type": "string"
+    },
+    "option3": {
+      "type": "string"
+    },
+    "option4": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "integer"
+    }
+  }
+}
