@@ -4,7 +4,8 @@
   "info": {
     "singularName": "weekly-quiz",
     "pluralName": "weekly-quizs",
-    "displayName": "WeeklyQuiz"
+    "displayName": "WeeklyQuiz",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,23 +15,23 @@
     "question": {
       "type": "string"
     },
-    "option1": {
+    "op1": {
       "type": "string"
     },
-    "option2": {
+    "op2": {
       "type": "string"
     },
-    "option3": {
+    "op3": {
       "type": "string"
     },
-    "option4": {
+    "op4": {
       "type": "string"
-    },
-    "ans": {
-      "type": "integer"
     },
     "quiz_id": {
       "type": "integer"
+    },
+    "ans": {
+      "type": "string"
     }
   }
 }
