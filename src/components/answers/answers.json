@@ -1,7 +1,8 @@
 {
   "collectionName": "components_answers_answers",
   "info": {
-    "displayName": "answers"
+    "displayName": "answers",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,11 +12,12 @@
     "iscorrect": {
       "type": "boolean"
     },
-    "student_ans": {
-      "type": "integer"
+    "isEvaluated": {
+      "type": "boolean",
+      "default": false
     },
-    "origi_ans": {
-      "type": "integer"
+    "student_ans": {
+      "type": "string"
     }
   }
 }

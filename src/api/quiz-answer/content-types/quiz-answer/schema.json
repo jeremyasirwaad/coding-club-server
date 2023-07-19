@@ -22,7 +22,8 @@
       "component": "answers.answers"
     },
     "marks": {
-      "type": "integer"
+      "type": "integer",
+      "default": 0
     }
   }
 }
