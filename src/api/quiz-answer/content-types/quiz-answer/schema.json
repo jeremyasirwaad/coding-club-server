@@ -13,7 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "rollno": {
-      "type": "string"
+      "type": "string",
+      "unique": true
     },
     "answers": {
       "displayName": "answers",
