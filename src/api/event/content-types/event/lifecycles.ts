@@ -25,6 +25,7 @@ export default {
         },
         "data": {
           "url": result.App_Poster,
+          "page":"/"
             },
         "android": {
               "priority": "high"

@@ -24,6 +24,7 @@ export default {
         "sound" : "default"
         },
         "data": {
+          "page":"/job",
           "url": result.Job_Poster
             },
         "android": {

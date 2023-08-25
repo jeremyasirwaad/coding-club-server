@@ -10,6 +10,9 @@ export default {
         "body": result.AppDesc,
         "sound" : "default"
         },
+        "data":{
+          "page":"/news"
+        },
         "android": {
           "priority": "high"
         },
