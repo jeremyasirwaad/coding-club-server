@@ -116,8 +116,8 @@ module.exports = {
 
     },
     options: {
-      rule: "*/10 * * * * *", // This rule runs cron job every 10sec
-      // rule: "0 18 * * *", // This rule runs job every day 18pm
+      // rule: "*/10 * * * * *", // This rule runs cron job every 10sec
+      rule: "0 18 * * *", // This rule runs job every day 18pm
     },
   },
 };
