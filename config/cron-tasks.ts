@@ -91,23 +91,23 @@ module.exports = {
             }
           })
         });
-  //       await axios.post('https://fcm.googleapis.com/fcm/send',{
-  //     "to": "/topics/NOTE",
-  //     "notification": {
-  //       "title": "Quiz Answers Published",
-  //       "body": "Quiz results are out! Check your monthly standing in the leaderboard",
-  //       "sound" : "default"
-  //       },
-  //       "data": {
-  //             "page":4
-  //           },
-  //       "android": {
-  //             "priority": "high"
-  //       },
-  //       "priority": 10
-  // }  ,{headers: {
-  //     Authorization: 'key=AAAAjOaXe4w:APA91bFN1tW_7Ol4aQg9ydD28zX8nzMr6qYj6HF27wtfctE6muF-oT9dPlt5GFuVaxgsUI1OZ92p4fuoFliJp7_P_TP4YZxXBC2RO7fdvKE1eVMMqBVyAwI1iZ0Ens7Lv8PViZqSWbNA',
-  //   }}).then(res => console.log(res.data))
+        await axios.post('https://fcm.googleapis.com/fcm/send',{
+      "to": "/topics/NOTE",
+      "notification": {
+        "title": "Quiz Answers Published",
+        "body": "Quiz results are out! Check your monthly standing in the leaderboard",
+        "sound" : "default"
+        },
+        "data": {
+              "page":4
+            },
+        "android": {
+              "priority": "high"
+        },
+        "priority": 10
+  }  ,{headers: {
+      Authorization: 'key=AAAAjOaXe4w:APA91bFN1tW_7Ol4aQg9ydD28zX8nzMr6qYj6HF27wtfctE6muF-oT9dPlt5GFuVaxgsUI1OZ92p4fuoFliJp7_P_TP4YZxXBC2RO7fdvKE1eVMMqBVyAwI1iZ0Ens7Lv8PViZqSWbNA',
+    }}).then(res => console.log(res.data))
         console.log("**********CRON JOB ENDED**********");
       } catch (error) {
         console.log(error);
@@ -116,8 +116,8 @@ module.exports = {
 
     },
     options: {
-      rule: "*/10 * * * * *", // This rule runs cron job every 10sec
-      // rule: "0 18 * * *", // This rule runs job every day 18pm
+      // rule: "*/10 * * * * *", // This rule runs cron job every 10sec
+      rule: "0 18 * * *", // This rule runs job every day 18pm
     },
   },
 };
